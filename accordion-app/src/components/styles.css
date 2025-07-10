@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordian {
+    width: 500px;
+}
+
+.item {
+    background-color: #88c1f5;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    color: white;
+    height: auto;
+}
+
+.toggleIcon{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
