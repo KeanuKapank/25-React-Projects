@@ -93,7 +93,7 @@ const Pagination = () => {
             ) : null}
           </div>
           <div className="button-container">
-            {count !== 3 ? (
+            {count !== 10 ? (
               <button onClick={() => setCount(count + 1)}>
                 Load More Products
               </button>
