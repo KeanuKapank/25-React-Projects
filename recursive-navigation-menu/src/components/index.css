@@ -1,0 +1,16 @@
+.tree-view-container{
+    background-color: rgb(125, 119, 255);
+    max-width: fit-content;
+    height: 100vh;
+    padding: 0 10px 0 0px;
+}
+
+.menu-list-container{
+    list-style-type: none;
+}
+
+.list-item-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
