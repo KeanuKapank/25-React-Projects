@@ -21,11 +21,7 @@ const TabsTest = () => {
     },
   ];
 
-  function handleTabChange(currentTabIndex: number) {
-    console.log(currentTabIndex);
-  }
-
-  return <Tabs tabsContent={tabs} onChange={handleTabChange} />;
+  return <Tabs tabsContent={tabs} />;
 };
 
 export default TabsTest;
