@@ -1,0 +1,55 @@
+.user-container{
+    width: 600px;
+    height: fit-content;
+    margin: 0 auto;
+    background: #020024;
+    background: linear-gradient(129deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 24%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 2rem;
+}
+
+.personal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 2rem;
+    color: #fff;
+    
+}
+
+.personal-info a {
+    color: #fff;
+}
+
+.github-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.created{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+.created-heading{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+}
+
+.user-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.avatar{
+    width: 60%;
+    border-radius: 2rem;
+}
